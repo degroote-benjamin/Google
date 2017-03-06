@@ -36,12 +36,23 @@ a:hover /* Apparence au survol des liens */
   color: white;
 }
 
-p
+.button1 , .button2
 {
-  background-color: #DCDCDC;
+  background-color:#fdfcfb;
   padding: 7px;
   display: inline-block;
+  width: 15%;
   margin-top: 1%;
+  border: 0;
+}
+.button1
+{
+  margin-left: 35%;
+}
+
+.button1:hover , .button2:hover
+{
+  border: 1px groove #cbcefb;
 }
 
 .left
@@ -58,11 +69,12 @@ section
   margin-top: 4%;
 }
 
-img , input
+img , .barre
 {
   display: block;
 }
-input
+
+.barre
 {
   width: 40%;
   margin-left: 30%;
