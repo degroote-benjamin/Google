@@ -28,18 +28,24 @@ p
   background-color: #DCDCDC;
   padding: 7px;
   display: inline-block;
+  margin-top: 1%;
 }
 
 .left
 {
   margin-left: 37%;
+  margin-right: 1%;
+}
+.leftli
+{
+  margin-left: 25px;
 }
 section
 {
-  margin-top: 5%;
+  margin-top: 4%;
 }
 
-img , input , span
+img , input
 {
   display: block;
 }
@@ -54,7 +60,7 @@ img
 {
   height: 250px;
   width: 400px;
-  margin-left: 35%;
+  margin-left: 34%;
 }
 
 footer
@@ -77,9 +83,10 @@ footer li
 {
 display: inline-block;
 margin-right: 10px;
+font-size: 0.8em;
 }
 
 .rightnav
 {
-  padding-left: 40%;
+  padding-left: 46%;
 }
