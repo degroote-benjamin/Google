@@ -18,12 +18,23 @@ li
   color: white;
 }
 
+p
+{
+  background-color: #DCDCDC;
+  padding: 7px;
+  display: inline-block;
+}
+
+.left
+{
+  margin-left: 37%;
+}
 section
 {
   margin-top: 5%;
 }
 
-img , input
+img , input , span
 {
   display: block;
 }
@@ -39,4 +50,16 @@ img
   height: 250px;
   width: 400px;
   margin-left: 35%;
+}
+
+footer
+{
+  margin-top: 17%;
+  width: 100%;
+  background-color: grey;
+}
+
+.right
+{
+  margin-left: 10%;
 }
