@@ -1,9 +1,14 @@
-
-nav
+*
 {
+  margin: 0;
+  padding: 0;
+}
+header nav
+{
+  margin-top: 1%;
   text-align: right;
 }
-li
+header li
 {
   list-style-type: none;
   display: inline-block;
@@ -54,12 +59,27 @@ img
 
 footer
 {
-  margin-top: 17%;
+  position: absolute;
+  bottom: 0;
   width: 100%;
-  background-color: grey;
+  background-color: #DCDCDC;
+  height: 5%;
 }
 
-.right
+
+.leftnav , .rightnav
 {
-  margin-left: 10%;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+footer li
+{
+display: inline-block;
+margin-right: 10px;
+}
+
+.rightnav
+{
+  padding-left: 40%;
 }
