@@ -16,6 +16,18 @@ header li
   margin-right: 2%;
 }
 
+a
+{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover /* Apparence au survol des liens */
+
+{
+   text-decoration: underline;
+}
+
 .connexion
 {
   background-color: skyblue;
